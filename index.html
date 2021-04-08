@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" ./style.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">    
+    <title>Challenge</title>
+    
+</head>
+
+<body>
+     <div class=" box-cat">
+         <h2> 
+             Challenge cattt
+         </h2>
+         <div class="butt">
+            <button class=" btn btn-success " onclick="catGen()">
+                Generate
+            </button>
+
+         </div>
+     </div>    
+    <div class=" flex-box"   id = "cat-gen">
+             
+            
+         </div>
+
+      <div class="box-2">
+          <h2>
+              Challenge Age
+          </h2>
+          <div class ="butt-1">
+              <button class=" btn btn-primary" id="rez" onclick="getDays()" >
+                  Click Me
+              </button>
+              <button class=" btn btn-danger" onclick="reset()">
+                  Reset
+              </button>
+              
+  
+          </div>
+          
+              
+        </div>
+        <div class="box-3" id="yo">
+           
+
+            </div>
+
+          <div class=" box-4"  >
+              <h2> 
+                  Challenge Rock-paper-scissors
+              </h2>
+              <div class="game" id="game">
+                <img  id ="rock" src ="http://images.clipartpanda.com/rock-clipart-clipart-harvestable-resources-rock.png" height="150px", width="150" onclick="play(this)"/>
+                <img id="paper" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6BxM_AJoeFRGlozzw_mEFsxbChX7GeRKHuBqZFMO6-MWx4uhZ&s " height="150px", width="150" onclick="play(this)"/>
+                <img id="scissors" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScesaWtZVcJF3o58MXgAOAAjHRxOkZtYMqQEOCLlG0fO-zgno&s" height="150px", width="150" onclick="play(this)"/>
+            </div>
+          </div>
+        <div class="color" >
+            <h2> 
+                Change colors of buttons
+            </h2>
+            <div class =" change-color">
+
+                <form action="">
+                    <select name="yo" id ="yo" onchange="yoo(this)">
+                        <option value="Reset">Reset</option>
+                        <option value="Random">Random</option>
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                        <option value="Yellow">Yellow</option>                   
+                                      
+                                       
+                                        
+                    </select>
+                    </form> 
+                    
+                    
+                    <button class=" btn btn-danger">
+                       Youtube
+                    </button>
+                    <button class=" btn btn-primary">
+                      Facebook
+                  </button>
+                  <button class=" btn btn-success">
+                     Google
+                  </button>
+                  <button class=" btn btn-warning">
+                      Insta
+                  </button>
+  
+                
+            </div>
+
+
+
+            
+
+  
+
+        </div>
+        <div class="box-5">
+
+            <h2>Challenge black-jack</h2>
+            <h3 ><span id='ya'> Let's playy</span> </h3>
+
+            <div class="row-1">
+                <div class='your-box' id='your-box'>
+                    <h2>You: <span id='your-score' >0</span></h2>
+                </div>
+                <div class='bot-box' id ='bot-box'>
+                    <h2>Dealer: <span id='bot-score'>0</span></h2>
+                </div>
+
+            </div>
+
+            <div class='row-2'>
+                <div class='bex'>
+                    <button class='btn-lg btn-primary mr-2' id='blu'>
+                        Hit
+                    </button>
+                    <button  class ='btn-lg btn-warning mr-2' id='ylw'>
+                        Stand
+                    </button >
+                    <button  class ='btn-lg btn-danger mg-2' id='rd'>
+                        Deal
+                    </button>
+                </div>
+            </div>
+
+            <div class='row-3'>
+                <table>
+                    <tr >
+                        <th>Wins</th>
+                        <th>Loses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td><span id='win'>0</span></td>
+                        <td><span id='lose'>0</span></td>
+                        <td><span id='draw'>0</span></td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+           
+    
+        
+         
+         
+     
+    
+    
+    
+    
+   
+<script src= 'script.js' > </script>
+    
+    
+</body>
+       
+
+
+
+
+</html>

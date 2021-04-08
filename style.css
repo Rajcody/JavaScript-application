@@ -1,0 +1,111 @@
+.box-cat,
+.box-4,
+.color,
+.box-5 {
+  border: 2px solid black;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+
+  margin-top: 10px;
+}
+.butt {
+  padding: 10px;
+}
+.butt button {
+  align-items: center;
+  border: 2px solid blueviolet;
+  padding: 10px;
+}
+.flex-box,
+.game,
+.change-color,
+.row-1,
+.row-3 {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 75%;
+  padding: 10px;
+}
+.flex-box img {
+  flex-wrap: wrap;
+  margin: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 1);
+}
+.box-2 {
+  border: 2px solid black;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+}
+.butt-1 button {
+  margin: 10px;
+}
+.box-3 {
+  border: 2px solid black;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+.box-4 img:hover {
+  box-shadow: 0px 10px 50px rgba(37, 50, 223, 1);
+  cursor: pointer;
+}
+.row-1 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+.row-2 {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+}
+.row-1,
+.row-2 {
+  background: url("https://image.freepik.com/free-photo/poker-table-background_77211-140.jpg")
+    center;
+  color: white;
+}
+.row-2 div {
+  border: 2px solid black;
+  padding: 10px;
+}
+.row-1 div {
+  border: 1px solid black;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 450px;
+  text-align: center;
+  flex: 1;
+}
+.row-2 button {
+  border: 1px solid black;
+  padding: 5px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.your-box img {
+  flex-wrap: wrap;
+  height: 120px;
+  padding: 10px 10px;
+}
+.bot-box img {
+  flex-wrap: wrap;
+  height: 120px;
+  padding: 10px 10px;
+}
